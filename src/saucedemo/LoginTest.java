@@ -14,7 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.asserts.SoftAssert;
 
 /** This class contains methods to test the login feature of saucedemo. */
-public class LoginTest implements loginTestConstants {
+public class LoginTest implements LoginTestConstants {
   private final WebDriver driver;
   private final WebDriverWait wait;
   private final SoftAssert softAssertion;
