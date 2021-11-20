@@ -16,7 +16,7 @@ public class LoginTestRunner {
     System.setProperty("webdriver.chrome.driver", prop.getProperty("chromePath"));
     WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
-    loginTest saucedemoLogin = new loginTest(driver);
+    LoginTest saucedemoLogin = new LoginTest(driver);
     saucedemoLogin.testLogin();
   }
 }
